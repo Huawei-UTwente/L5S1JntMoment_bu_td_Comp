@@ -1,0 +1,47 @@
+
+    THIS EXECUTABLE IS DEPRECATED AND WILL BE REMOVED IN A FUTURE RELEASE.
+
+    Use opensim-cmd instead, which can do everything that this executable can.
+
+      id -S SetupFileName -> opensim-cmd run-tool SetupFileName
+      id -PS              -> opensim-cmd print-xml id
+    
+Constructing tool from setup file D:\HuaweiWang\LumbarJnt_BU_TD_Comp\SubjData_BottomUp\OS\UTmodel\SubjData_BottomUpsquatIDset.xml.
+
+-----------------------------------------------------------------------
+Starting Inverse Dynamics
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Loaded model 3DGaitModel2392_scaled from file D:\HuaweiWang\LumbarJnt_BU_TD_Comp\SubjData_BottomUp\OS\UTmodel\gait2392_simbody_subj06_scaled_1.osim
+
+               MODEL: 3DGaitModel2392_scaled
+         coordinates: 23
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 33
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool gait2392_simbody_subj04_scaled.
+
+Storage: read data file =D:\HuaweiWang\LumbarJnt_BU_TD_Comp\SubjData_BottomUp\OS\DataFiles\SubjData_BottomUpsquatXLD.mot (nr=5525 nc=19)
+ExternalForce::GRF_R
+Data source being set to SubjData_BottomUpsquat
+ExternalForce::GRF_L
+Data source being set to SubjData_BottomUpsquat
+Storage: read data file =D:\HuaweiWang\LumbarJnt_BU_TD_Comp\SubjData_BottomUp\OS\DataFiles\SubjData_BottomUpsquatIK.mot (nr=5525 nc=24)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 6...
+
+InverseDynamicsTool: 5525 time frames in 3 second(s)
+
+Inverse dynamics compute time = 9157ms
+
